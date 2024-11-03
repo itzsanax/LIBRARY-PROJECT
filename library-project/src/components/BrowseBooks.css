@@ -1,0 +1,77 @@
+div label select{
+    width:100px;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .book-item {
+    width: 250px; 
+    height: 380px; 
+    border: 1px solid #4b924e;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+ 
+  
+  .book-image{
+    width: 200px;
+    height: 220px;
+    margin-bottom: 8px;
+}
+
+ 
+  input[type="text"], select {
+    width: 200px; 
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  label {
+    margin-right: 8px;
+    font-weight: bold;
+  }
+  .book-info {
+    margin-top: auto; 
+  }
+  
+  .book-info h3 {
+    margin: 8px 0 4px;
+    font-size: 16px;
+  }
+  
+  .book-info p {
+    margin: 0;
+    color: #666;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 8px;
+   
+    background-color: #0f8115;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #022d12;
+  }
+  
